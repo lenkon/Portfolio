@@ -52,7 +52,7 @@ You can deploy this project using:
 
 ## Authors
 
-#### Author1
+**Author1**
 
     GitHub: [@lenkon](https://github.com/lenkon)
     Twitter: 
