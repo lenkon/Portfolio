@@ -1,34 +1,87 @@
-.box1 {
-  width: 375px;
-  height: 50px;
-}
-
-.box2 {
-  width: 375px;
-  height: 200px;
-}
-
-h1 {
-  font-size: 20px;
-  top: 10px;
-  left: 12px;
-  color: blue;
-}
-
-h2 {
-  font-family: sans-serif;
-  font-weight: 700;
-  size: 40px;
-  line-height: 52px;
-  color: #172b4d;
+body {
+  background: #e5e5e5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container1 {
+  width: 100%;
+  height: 54px;
+  padding: 0 24px;
+  background: #fff;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.barlists {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.barlists li {
+  list-style: none;
 }
 
 .container2 {
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  padding: 24px;
+  background: #fff;
+}
+
+h2 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+
+  /* Neutrals/N800 */
+  color: #172b4d;
+}
+
+p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* Neutrals/N600 */
+  color: #344563;
+}
+
+.iconlists {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.iconlists li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.connect {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
 }
