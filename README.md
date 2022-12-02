@@ -1,89 +1,84 @@
-# Portfolio
-Set up a portfolio.
+# Project Name: Portfolio
 
-Built With
+For the first milestone in the process of creating your portfolio website, you will:
 
-Tech Stack
+    * Set up a new repository and prepare it for development using best practices (e.g. linters).
+    * Build the first 2 sections of the mobile website using the template you chose in the previous step.
 
-Client
-    Node.js
+##Built With
+ 
+###Tech Stack
 
-Server
+* Client: html, css
+
+* Server:
     
-Database
+* Database
 
-Key Features
+###Key Features
 
-    Display a portfolio of Projects worked upon and Achievements.
+* Display a portfolio of Projects worked upon and Achievements.
 
-Live Demo
-https://github.com/lenkon/Portfolio
+##Live Demo
+    * https://github.com/lenkon/Portfolio
 
-Getting Started
+##Getting Started
 
 To get a local copy up and running, follow these steps.
 
-Prerequisites
+###Prerequisites
 
 In order to run this project you need:
 
-Setup
+###Setup
 
 Clone this repository to your desired folder:
 
-Install
+###Install
 
 Install this project with:
 
-Usage
+###Usage
 
 To run the project, execute the following command:
 
-Run tests
+###Run tests
 
 To run tests, run the following command:
 
-Deployment
+###Deployment
 
 You can deploy this project using:
 
-Authors
+##Authors
 
-Author1
+####Author1
 
-    GitHub: @lenkon
+    GitHub: [@lenkon](https://github.com/lenkon)
     Twitter: 
     LinkedIn: 
 
-Author2
-
-    GitHub: 
-    Twitter:
-    LinkedIn:
-
-
-Future Features
+##Future Features
 
     1. Add more projects.
     2. Add milestones and achievements.
-    3.
 
-Contributing
+##Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
 
-Show your support
+##Show your support
 
 If you like this project I would like to encourage One and All to kindly support the project by sharing it.
 
-Acknowledgments
+##Acknowledgments
 
 I would like to thank...
 
-FAQ
+##FAQ
 
-License
+##License
 
 This project is MIT licensed.
