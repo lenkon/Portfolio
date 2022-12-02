@@ -54,9 +54,9 @@ You can deploy this project using:
 
 **Author1**
 
-    GitHub: [@lenkon](https://github.com/lenkon)
-    Twitter: 
-    LinkedIn: 
+- GitHub: [@lenkon](https://github.com/lenkon)
+- Twitter: 
+- LinkedIn: 
 
 ## Future Features
 
