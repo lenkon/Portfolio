@@ -1,57 +1,76 @@
+* {
+  margin: 0;
+}
+
 body {
   background: #e5e5e5;
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
+  max-width: 375px;
+  max-height: 740px;
+  padding: 0;
 }
 
 .container1 {
-  width: 100%;
-  height: 54px;
-  padding: 0 24px;
   background: #fff;
+  height: 118px;
+  max-width: 375px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.bar {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-content: space-between;
+  padding-left: 24px;
 }
 
 .barlists {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0;
-  padding: 0;
 }
 
-.barlists li {
-  list-style: none;
+.logo {
+  width: 76px;
+  height: 20px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 36px 0 24px;
+}
+
+.menu {
+  padding-right: 36px;
+  width: 18px;
+  height: 12px;
+  left: 3px;
+  top: 6px;
 }
 
 .container2 {
-  width: 100%;
-  height: 100vh;
+  max-width: 375px;
   display: flex;
   flex-direction: column;
-  padding: 24px;
-  background: #fff;
+  min-height: calc(100vh - 56px);
+  background: url("./image/header-shapes\ mobile@2x.png");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  padding: 100px 18px 0 24px;
+  margin-bottom: 24px;
 }
 
-h2 {
+.about-me {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-
-  /* Neutrals/N800 */
+  width: 260px;
+  height: 150px;
+  top: 114px;
+  letter-spacing: 2px;
+  align-items: center;
   color: #172b4d;
+  padding-right: 0 150px;
 }
 
 p {
@@ -60,8 +79,7 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
-  /* Neutrals/N600 */
+  padding: 18px 0 8px;
   color: #344563;
 }
 
@@ -69,7 +87,7 @@ p {
   display: flex;
   align-items: center;
   margin: 0;
-  padding: 0;
+  padding: 15px 0;
 }
 
 .iconlists li {
@@ -84,4 +102,5 @@ p {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  max-width: 250px;
 }
