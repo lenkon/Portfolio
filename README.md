@@ -1,28 +1,71 @@
-# Project Name: Portfolio
+<a name="readme-top"></a>
 
-For the first milestone in the process of creating your portfolio website, you will:
+<div align="center">
 
-    * Set up a new repository and prepare it for development using best practices (e.g. linters).
-    * Build the first 2 sections of the mobile website using the template you chose in the previous step.
+  <h3><b>Portfolio: finish mobile version</b></h3>
 
-## Built With
- 
-### Tech Stack
+</div>
 
-* Client: html, css
+# 📗 Table of Contents
 
-* Server:
-    
-* Database
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-### Key Features
+# 📖 [Portfolio: finish mobile version] <a name="about-project"></a>
 
-* Display a portfolio of Projects worked upon and Achievements.
+> The project is a second milestone in building a portfolio website, which create a mobile website section where my portfolio projects are listed.
 
-## Live Demo
-https://github.com/lenkon/Portfolio
+**[Portfolio: finish mobile version]** is...
 
-## Getting Started
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+>  Built with html and css with linter configuration setup.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://github.com/lenkon/Portfolio/blob/main/.github/workflows/linters.yml">linter</a></li>
+    <li><a href="https://www.w3schools.com/html/">html</a></li>
+    <li><a href="https://www.w3schools.com/w3css/defaulT.asp">css</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+> Key features of the application.
+
+- **[Navigation bar]**
+- **[Header section - Introduction]**
+- **[Work portfolio section - Projects description]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://github.com/lenkon/Portfolio)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
@@ -50,35 +93,51 @@ To run tests, run the following command:
 
 You can deploy this project using:
 
-## Authors
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Author1**
+## 👥 Authors <a name="authors"></a>
 
-- GitHub: [@lenkon](https://github.com/lenkon)
-- Twitter: 
-- LinkedIn: 
+👤 **lenkon**
 
-## Future Features
+- GitHub: [@githubhandle](https://github.com/lenkon)
 
-    1. Add more projects.
-    2. Add milestones and achievements.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Contributing
+## 🔭 Future Features <a name="future-features"></a>
+
+> Features to be added.
+
+- [ ] **[Add more projects]**
+- [ ] **[Add milestones and achievements]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you like this project I would like to encourage One and All to kindly support the project by sharing it.
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+If you like this project please rate and give a star.
 
-I would like to thank...
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## FAQ
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-## License
+I would like to thank Microverse for sharing the tools and requirements.
 
-This project is MIT licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ❓ FAQ <a name="faq"></a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

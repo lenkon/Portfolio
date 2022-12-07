@@ -8,11 +8,14 @@
     <meta name="description" content="My Portfolio">
     <meta name="author" content="Lenkon">
     <link rel="stylesheet" href="styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" 
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"> 
   </head>
 
-  <body>         
-    <header class="container1">
+  <body>
+    <main>
+      <!-- Navigation -->
+      <header class="navbar-container">
         <section class="barlists">
           <a class="logo" href="/">
             <img src="./image/My Logo.png" alt="Logo">
@@ -21,34 +24,225 @@
             <img src="./image/Union.png" alt="Menu">          
           </nav>          
         </section>
-    </header>
-      
-    <section class="container2">      
-      <h1 class="about-me"><b>I'm Inoulen Glad to see you!</b></h1>
-          
-      <p>I'm a software developer! I can help you build a product, feature or website. Look through
-        through some of my work and experience! If you like what you see and have a project you need 
-        coded, don't hesitate to contact me.
-      </p>      
-      
-      <h6 class="connect">LET’S CONNECT</h6>
-      <ul class="iconlists">
-        <li>
-          <a href="https://twitter.com/"><img src="./image/Twitter.png" alt="" /></a>
-        </li>
-        <li>
-          <a href="https://linkedin.com/"><img src="./image/Linkedin icon.png" alt="" /></a>
-        </li>
-        <li>
-          <a href="https://medium.com/"><img src="./image/Vector 2.png" alt="" /></a>
-        </li>
-        <li>
-          <a href="https://github.com/"><img src="./image/Vector 1.png" alt="" /></a>
-        </li>
-        <li>
-          <a href="https://shutterstock.com/"><img src="./image/Vector 3.png" alt="" /></a>
-        </li>          
-      </ul>      
-    </section>
+      </header>
+
+      <!-- Header -->
+      <section class="header-container">      
+        <h1 class="about-me"><b>I'm Inoulen Glad to see you!</b></h1>            
+        <p class="header-main-text">I'm a software developer! I can help you build a product, 
+          feature or website. Look through through some of my work and experience! If you like 
+          what you see and have a project you need coded, don't hesitate to contact me.
+        </p>        
+        <h6 class="connect">LET’S CONNECT</h6>
+
+        <!-- Social media icons section -->
+        <ul class="iconlists">
+          <li>
+            <a href="https://twitter.com/"><img src="./image/Twitter.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/"><img src="./image/Linkedin icon.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="https://medium.com/"><img src="./image/Vector 2.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/"><img src="./image/Vector 1.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="https://shutterstock.com/"><img src="./image/Vector 3.png" alt="" /></a>
+          </li>          
+        </ul>      
+      </section>
+
+      <!-- Middle section - Works -->
+      <section class="card-works-wrapper">
+
+        <!-- Card 1 -->
+        <div class="card-works-container card-size1">
+          <img src="./image/Snapshoot-Portfolio.png" alt="Project1">
+          <h2 class="card-title-text">Tonic</h2>
+          <div class="card-list">
+            <span class="card-canopy">
+              CANOPY
+            </span>
+            <div class="card-bullet-separator"></div>
+            <span class="card-canopy card-canopy-details">
+              Back End Dev
+            </span>
+            <div class="card-bullet-separator"></div>
+            <span class="card-canopy card-canopy-details">
+              2015
+            </span>
+          </div>
+          <p class="card-main-text">
+            A daily selection of privately personalized reads; no accounts or sign-ups required.
+          </p>
+          <ul class="card-tools-list">
+            <li class="card-tools">html</li>
+            <li class="card-tools">css</li>
+            <li class="card-tools">javascript</li>
+          </ul>
+          <div class="card-button-box">
+            <button class="card-button">See Project</button>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card-works-container card-size2">
+          <img src="./image/Snapshoot-Portfolio-Availibility.png" alt="Project2">
+          <h2 class="card-title-text">Multi-Post </br> Stories</h2>
+          <div class="card-list">
+            <span class="card-canopy">
+              CANOPY
+            </span>
+            <div class="card-bullet-separator"></div>
+            <span class="card-canopy card-canopy-details">
+              Back End Dev
+            </span>
+            <div class="card-bullet-separator"></div>
+            <span class="card-canopy card-canopy-details">
+              2015
+            </span>
+          </div>
+          <p class="card-main-text">
+            A daily selection of privately personalized reads; no accounts or sign-ups required.
+          </p>
+          <ul class="card-tools-list">
+            <li class="card-tools">html</li>
+            <li class="card-tools">css</li>
+            <li class="card-tools">javascript</li>
+          </ul>
+          <div class="card-button-box">
+            <button class="card-button">See Project</button>
+          </div>        
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card-works-container card-size1">
+          <img src="./image/Snapshoot-Portfolio-Gym-Fit.png" alt="Project3">
+          <h2 class="card-title-text">Tonic</h2>
+          <div class="card-list">
+            <span class="card-canopy">
+              CANOPY
+            </span>
+            <div class="card-bullet-separator"></div>
+            <span class="card-canopy card-canopy-details">
+              Back End Dev
+            </span>
+            <div class="card-bullet-separator"></div>
+            <span class="card-canopy card-canopy-details">
+              2015
+            </span>
+          </div>
+          <p class="card-main-text">
+            A daily selection of privately personalized reads; no accounts or sign-ups required.
+          </p>
+          <ul class="card-tools-list">
+            <li class="card-tools">html</li>
+            <li class="card-tools">css</li>
+            <li class="card-tools">javascript</li>
+          </ul>
+          <div class="card-button-box">
+            <button class="card-button">See Project</button>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card-works-container card-size2">
+          <img src="./image/Snapshoot-Portfolio-Art-Print.png" alt="Project4">
+          <h2 class="card-title-text">Multi-Post </br> Stories</h2>
+          <div class="card-list">
+            <span class="card-canopy">
+              CANOPY
+            </span>
+            <div class="card-bullet-separator"></div>
+            <span class="card-canopy card-canopy-details">
+              Back End Dev
+            </span>
+            <div class="card-bullet-separator"></div>
+            <span class="card-canopy card-canopy-details">
+              2015
+            </span>
+          </div>
+          <p class="card-main-text">
+            A daily selection of privately personalized reads; no accounts or sign-ups required.
+          </p>
+          <ul class="card-tools-list">
+            <li class="card-tools">html</li>
+            <li class="card-tools">css</li>
+            <li class="card-tools">javascript</li>
+          </ul>
+          <div class="card-button-box">
+            <button class="card-button">See Project</button>
+          </div>        
+        </div>
+      </section>
+
+      <!-- About Myself -->
+      <section class="about-myself">
+        <h2 id="about-myself-header">About <br />Myself</h2>
+        <p class="about-myself-description">
+          Hello I’m a software developer! I can help you build a product , feature or website. 
+          Look through some of my work and experience! If you like what you see and have a 
+          project you need coded, don’t hesitiate to contact me.
+        </p>
+        <h6 class="connect">
+          LET’S CONNECT
+        </h6>
+        <ul class="iconlists">
+          <li>
+            <a href="https://github.com/"><img src="./image/Vector 1.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/"><img src="./image/Linkedin icon.png" alt="" /></a>
+          </li>  
+          <li>
+            <a href="https://shutterstock.com/"><img src="./image/Vector 3.png" alt="" /></a>
+          </li>
+          <li>            
+            <a href="https://twitter.com/"><img src="./image/Twitter.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="https://medium.com/"><img src="./image/Vector 2.png" alt="" /></a>
+          </li>                    
+        </ul>        
+        <div class="card-button-box">
+          <button class="card-button">Get my resume</button>
+        </div>
+
+        <!-- Skills -->
+        <ul class="skill-container">
+          <li class="skill-list-header">
+            <h4 class="skill-header">Languages</h4>
+            <img src="./image/arrow-down.png" alt="Languages">
+          </li>
+          <ul class="language-list">
+            <li class="language">
+              <img src="./image/Ellipse-JS.png" alt="JavaScript">
+              <h6 class="language-text">JavaScript</h6>
+            </li>
+            <li class="language">
+              <img src="./image/Ellipse-HTML.png" alt="HTML">
+              <h6 class="language-text">HTML</h6>
+            </li>
+            <li class="language">
+              <img src="./image/Ellipse-CSS.png" alt="CSS">
+              <h6 class="language-text">CSS</h6>
+            </li>
+          </ul>          
+          <li class="skill-list-header">
+            <h4 class="skill-header">Frameworks</h4>
+            <img src="./image/arrow-button-icon.png" alt="Frameworks">
+          </li>
+          <div class="skill-separator"></div>
+          <li class="skill-list-header">
+            <h4 class="skill-header">Skills</h4>
+            <img src="./image/arrow-button-icon.png" alt="Skills">
+          </li>
+          <div class="skill-separator"></div>
+        </ul>
+      </section>      
+    </main>
   </body>
 </html>
