@@ -258,7 +258,7 @@ body {
 .skill-header {
   left: 12px;
   right: 78px;
-  top: calc(50% - 24px/2);
+  top: calc(50% - 24px / 2);
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
