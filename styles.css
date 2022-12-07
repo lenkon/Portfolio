@@ -267,7 +267,7 @@ body {
 }
 
 .language-list {
-  padding: 12px;
+  padding: 12px 11px 12px 0;
   padding-inline-start: 0;
 }
 
@@ -294,9 +294,8 @@ body {
 .skill-container {
   display: flex;
   flex-direction: column;
-  margin-left: 36px;
-  padding: 0 0 80px;
-  margin-bottom: 80px;
+  padding-left: 13px;
+  padding-right: 8px;
 }
 
 .skill-list-header {
@@ -304,6 +303,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 24px 0;
+  margin-right: 63px;
   cursor: pointer;
 }
 
