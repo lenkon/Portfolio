@@ -2,15 +2,18 @@
   margin: 0;
 }
 
+main {
+  background: #f7f7f9;
+}
+
 body {
   background: #e5e5e5;
   box-sizing: border-box;
   max-width: 375px;
   max-height: 740px;
-  padding: 0;
 }
 
-.container1 {
+.navbar-container {
   background: #fff;
   height: 118px;
   max-width: 375px;
@@ -46,7 +49,7 @@ body {
   top: 6px;
 }
 
-.container2 {
+.header-container {
   max-width: 375px;
   display: flex;
   flex-direction: column;
@@ -55,7 +58,18 @@ body {
   background-color: #fff;
   background-repeat: no-repeat;
   padding: 100px 18px 0 24px;
-  margin-bottom: 24px;
+  border-bottom-left-radius: 70px;
+}
+
+.header-main-text,
+.about-myself-description {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 18px 0 8px;
+  color: #344563;
 }
 
 .about-me {
@@ -73,14 +87,14 @@ body {
   padding-right: 0 150px;
 }
 
-p {
+.connect {
   font-family: Poppins, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  padding: 18px 0 8px;
-  color: #344563;
+  color: #7f8cff;
+  max-width: 250px;
 }
 
 .iconlists {
@@ -95,12 +109,214 @@ p {
   margin-right: 20px;
 }
 
-.connect {
+.card-works-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 114px 24px 0;
+  justify-content: center;
+}
+
+.card-works-container {
+  /* width: 245;
+  height: 596px; */
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  gap: 12px;
+  margin: 0 24px 88px;
+  padding: 16px;
+}
+
+.card-size1 {
+  width: 245;
+  height: 552px;
+}
+
+.card-size2 {
+  width: 245;
+  height: 596px;
+}
+
+.card-title-text {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 12px 0;
+}
+
+.card-list {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.card-canopy {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  line-height: 16px;
+  color: #344563;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.card-canopy-details {
+  color: #7a869a;
+}
+
+.card-bullet-separator {
+  width: 8px;
+  height: 8px;
+  background: #c1c7d0;
+  border-radius: 50%;
+  margin: 0 12px;
+}
+
+.card-main-text {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin: 12px 0;
+}
+
+.card-tools-list {
+  display: flex;
+  margin-right: 16px;
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.card-tools {
+  list-style: none;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-right: 8px;
+  padding: 4px 12px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  color: #6070ff;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.card-button-box {
+  margin: 12px 0;
+}
+
+.card-button {
+  background: #fff;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  color: #396de2;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.card-button:hover {
+  background: #396de2;
+  color: #fff;
+  cursor: pointer;
+}
+
+.about-myself {
+  background: #fff;
+  border-top-right-radius: 70px;
+  padding: 114px 24px;
+  margin: 26px 0;
+}
+
+#about-myself-header {
+  width: 327px;
+  height: 101px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.language-header,
+.skill-header {
+  left: 12px;
+  right: 78px;
+  top: calc(50% - 24px/2);
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
-  color: #7f8cff;
-  max-width: 250px;
+}
+
+.language-list {
+  padding: 12px;
+  padding-inline-start: 0;
+}
+
+.language {
+  background: #f7f7f9;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.language-text {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  margin-left: 16px;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 36px;
+  padding: 0 0 80px;
+  margin-bottom: 80px;
+}
+
+.skill-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+  cursor: pointer;
+}
+
+.skill-header {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+.skill-separator {
+  height: 1px;
+  background: #dfe1e6;
 }
