@@ -243,7 +243,24 @@
           </li>
           <div class="skill-separator"></div>
         </ul>
-      </section>      
+      </section>
+
+      <!-- Contact footer -->
+      <footer class="contact-section">
+        <div class="contact-container">
+          <h2 class="contact-title">Contact me</h2>
+          <p class="contact-details">If you have an application you are interested in 
+            developing a feature that you need built or a project that needs coding 
+            I’d love to help with it</p>
+          <form class="contact-form" action="https://formspree.io/f/xvoyebwn" method="POST" id="form">
+            <input class="contact-input" id="name" name="Name" type="text" placeholder="Konjengbam Inoulen" maxlength="30" required />
+            <input class="contact-input" id="email" name="Email" type="email" placeholder="inoulenkon@gmail.com" required />
+
+            <textarea class="form-msg" id="message" name="Message" placeholder="Write your message here" maxlength="500" required></textarea>
+            <button type="submit" onclick="validate()" class="submit-button">Get In Touch</button>
+          </form>            
+        </div>
+      </footer>
     </main>
   </body>
 </html>
