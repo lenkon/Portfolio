@@ -406,6 +406,12 @@ body {
   padding: 12px 16px;
 }
 
+.submit-button:hover {
+  background: #396de2;
+  color: #fff;
+  cursor: pointer;
+}
+
 .container-base {
   padding: 0 115px 5px;
 }
