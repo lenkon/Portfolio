@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Portfolio: finish mobile version</b></h3>
+  <h3><b>Portfolio: add a contact form and finish the mobile version</b></h3>
 
 </div>
 
@@ -28,11 +28,11 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio: finish mobile version] <a name="about-project"></a>
+# 📖 [Portfolio: add a contact form and finish the mobile version] <a name="about-project"></a>
 
-> The project is a second milestone in building a portfolio website, which create a mobile website section where my portfolio projects are listed.
+> The project is the third milestone in building a portfolio website. In this project a contact form is added in the portfolio project.
 
-**[Portfolio: finish mobile version]** is...
+**[Portfolio: add a contact form and finish the mobile version]** is...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -56,6 +56,7 @@
 - **[Navigation bar]**
 - **[Header section - Introduction]**
 - **[Work portfolio section - Projects description]**
+- **[Contact Form]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
