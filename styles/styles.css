@@ -683,4 +683,10 @@ body {
   .container-base {
     display: none;
   }
+
+  .card-works-container:hover {
+    cursor: pointer;
+    outline: 3px solid #58585c;
+    box-shadow: 0 3px 4px 0 rgba(30, 30, 30, 0.2), 0 3px 10px 0 rgba(75, 64, 64, 0.1);
+  }
 }
