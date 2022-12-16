@@ -341,7 +341,7 @@ body {
   }
 
   .card-works-container > img {
-    width: 85%;
+    width: 50%;
     height: auto;
   }
 
@@ -349,6 +349,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 0 24px;
+    width: 50%;
   }
 
   .card-title-text {
