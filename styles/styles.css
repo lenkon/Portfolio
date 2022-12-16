@@ -2,26 +2,24 @@
   margin: 0;
 }
 
-main {
+.main {
   background: #f7f7f9;
 }
 
 body {
-  background: #e5e5e5;
+  background: #f7f7f9;
   box-sizing: border-box;
+  width: 100%;
   max-width: 375px;
-  max-height: 740px;
 }
 
 .navbar-container {
   background: #fff;
   height: 118px;
-  max-width: 375px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: space-between;
-  padding-left: 24px;
 }
 
 .barlists {
@@ -38,7 +36,8 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  padding: 36px 0 24px;
+  padding: 36px 0 24px 24px;
+  text-decoration: none;
 }
 
 .menu {
@@ -50,26 +49,27 @@ body {
 }
 
 .header-container {
-  max-width: 375px;
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 56px);
-  background: url("./image/header-shapes\ mobile@2x.png");
+  min-height: calc(100vh - 156px);
+  background: url("../images/header-shapes\ mobile@2x.png");
   background-color: #fff;
   background-repeat: no-repeat;
-  padding: 100px 18px 0 24px;
+  padding-top: 100px;
   border-bottom-left-radius: 70px;
 }
 
 .header-main-text,
 .about-myself-description {
+  max-width: 375px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  padding: 18px 0 8px;
+  padding: 20px 0 8px;
   color: #344563;
+  padding-left: 24px;
 }
 
 .about-me {
@@ -78,13 +78,12 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  width: 260px;
-  height: 150px;
+  height: auto;
   top: 114px;
   letter-spacing: 2px;
   align-items: center;
   color: #172b4d;
-  padding-right: 0 150px;
+  padding-left: 24px;
 }
 
 .connect {
@@ -95,13 +94,15 @@ body {
   line-height: 24px;
   color: #7f8cff;
   max-width: 250px;
+  padding-left: 24px;
 }
 
 .iconlists {
   display: flex;
   align-items: center;
   margin: 0;
-  padding: 15px 0;
+  margin-right: 300px;
+  padding: 15px 0 0 24px;
 }
 
 .iconlists li {
@@ -112,31 +113,20 @@ body {
 .card-works-wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 114px 24px 0;
+  margin-top: 114px;
   justify-content: center;
 }
 
 .card-works-container {
-  width: 245;
-  height: 596px;
+  width: 293px;
   background: #fff;
   display: flex;
   flex-direction: column;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   gap: 12px;
-  margin: 0 24px 88px;
   padding: 16px;
-}
-
-.card-size1 {
-  width: 245;
-  height: 552px;
-}
-
-.card-size2 {
-  width: 245;
-  height: 596px;
+  margin: 0 24px 88px;
 }
 
 .card-title-text {
@@ -211,6 +201,7 @@ body {
 
 .card-button-box {
   margin: 12px 0;
+  max-width: 200px;
 }
 
 .card-button {
@@ -220,7 +211,6 @@ body {
   border-radius: 8px;
   display: flex;
   align-items: center;
-  justify-content: center;
   font-family: Poppins, sans-serif;
   font-style: normal;
   color: #396de2;
@@ -228,6 +218,10 @@ body {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+}
+
+.card-button-resume {
+  margin-left: 24px;
 }
 
 .card-button:hover {
@@ -238,13 +232,10 @@ body {
 
 .about-myself {
   background: #fff;
-  border-top-right-radius: 70px;
-  padding: 114px 24px;
-  margin-top: 26px;
+  border-top-right-radius: 120px;
 }
 
 #about-myself-header {
-  width: 327px;
   height: 101px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -252,6 +243,8 @@ body {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+  padding: 114px 24px 0;
+  margin-top: 26px;
 }
 
 .language-header,
@@ -267,7 +260,7 @@ body {
 }
 
 .language-list {
-  padding: 12px 11px 12px 0;
+  padding: 12px 36px 12px 0;
   padding-inline-start: 0;
 }
 
@@ -294,15 +287,15 @@ body {
 .skill-container {
   display: flex;
   flex-direction: column;
-  padding-left: 13px;
-  padding-right: 8px;
+  padding-inline-start: 0;
+  padding-inline-start: 36px;
 }
 
 .skill-list-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 0;
+  padding: 14px 24px;
   margin-right: 63px;
   cursor: pointer;
 }
@@ -319,13 +312,14 @@ body {
 .skill-separator {
   height: 1px;
   background: #dfe1e6;
+  margin-right: 24px;
 }
 
 .contact-section {
   background-color: #fff;
-  max-width: 375px;
   max-height: 779px;
   justify-content: center;
+  padding-top: 126px;
 }
 
 .contact-container {
@@ -360,6 +354,7 @@ body {
 }
 
 .contact-form {
+  /* width: 447px; */
   display: flex;
   flex-direction: column;
   padding: 14px 24px 24px;
@@ -414,4 +409,285 @@ body {
 
 .container-base {
   padding: 0 115px 5px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  main {
+    min-width: 1440px;
+  }
+
+  /* Desktop - navigation */
+  .menu-desktop {
+    display: flex;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    justify-content: flex-end;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .navbar-container {
+    height: 47px;
+  }
+
+  .barlists {
+    padding: 25px 154px 0 85px;
+    width: 100%;
+    width: auto;
+  }
+
+  .menu-desktop-list {
+    width: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-desktop-list a {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    padding: 12px;
+    text-decoration: none;
+  }
+
+  /* Desktop - header */
+  .header-main {
+    padding: 204px 0 0 154px;
+  }
+
+  .header-container {
+    background: #fff url("../images/large/Header\ bg@2x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    border-bottom-left-radius: 120px;
+    padding: 72px 0 114px;
+  }
+
+  .header-main-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .about-me {
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+  }
+
+  /* Desktop - cards */
+  .card-works-container {
+    width: 100%;
+    min-width: 666px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .card-works-wrapper {
+    width: auto;
+    margin-top: 88px;
+    margin-right: 177px;
+    margin-left: 92px;
+  }
+
+  .card-works-container:last-child {
+    margin-bottom: 92px;
+  }
+
+  .card-interchange {
+    flex-direction: row-reverse;
+  }
+
+  #order-1 {
+    order: 3;
+  }
+
+  #order-2 {
+    order: 2;
+  }
+
+  #order-3 {
+    order: 1;
+  }
+
+  #order-4 {
+    order: 5;
+  }
+
+  .card-works-container > img {
+    width: 50%;
+    height: auto;
+    margin: 12px;
+  }
+
+  .card-sizing {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px 14px 0 46px;
+    width: 50%;
+  }
+
+  .card-title-text {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .card-canopy {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .card-main-text {
+    font-size: 16px;
+  }
+
+  /* Desktop - about myself */
+  #about-myself-header {
+    width: 450px;
+    margin: 0;
+    margin-right: 0;
+  }
+
+  .about-myself {
+    display: flex;
+    margin-right: 0;
+  }
+
+  .about-myself-description {
+    width: 450px;
+    margin-right: 0;
+    font-size: 16px;
+  }
+
+  .about-sizing {
+    min-width: 435px;
+    margin-right: 0;
+    flex-grow: 1;
+    flex-shrink: 2;
+    background: #fff;
+    padding-left: 92px;
+    padding-bottom: 112px;
+  }
+
+  .card-button-box {
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .skill-container {
+    background: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    border-top-right-radius: 120px;
+    margin: 0;
+  }
+
+  .skills-sizing {
+    flex-shrink: 1;
+    flex-grow: 3;
+    padding-bottom: 164px;
+  }
+
+  .skill-list-header {
+    width: 90%;
+    flex-shrink: 1;
+    flex-grow: 3;
+  }
+
+  .skill-list-header:first-child {
+    margin-top: 110px;
+  }
+
+  .language-list {
+    display: flex;
+  }
+
+  .language > h5 {
+    margin-left: 0;
+    margin-top: 16px;
+  }
+
+  .language {
+    min-width: 102px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  /* Desktop - footer */
+  .contact-section {
+    padding-top: 0;
+    background-color: #6070ff;
+    border-top-left-radius: 120px;
+  }
+
+  .contact-title {
+    padding-left: 0;
+  }
+
+  .contact-container {
+    background: url("../images/large/contact\ form\ background\ shapes@2x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-container > p {
+    padding: 16px 0 0;
+    max-width: 520px;
+  }
+
+  .contact-form {
+    align-items: center;
+  }
+
+  #form-submit {
+    margin-left: 188px;
+    margin-bottom: 72px;
+  }
+
+  #form-submit:hover {
+    background: #021d62;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .contact-input {
+    border-radius: 0;
+    width: 447px;
+    margin-left: 26px;
+  }
+
+  .form-msg {
+    border-radius: 0;
+    width: 447px;
+    margin-left: 26px;
+  }
+
+  .container-base {
+    display: none;
+  }
+}
+
+/* Hidden Menu */
+@media screen and (max-width: 768px) {
+  .menu-desktop {
+    display: none;
+  }
 }

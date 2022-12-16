@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Portfolio: add a contact form and finish the mobile version</b></h3>
+  <h3><b>Portfolio: desktop version</b></h3>
 
 </div>
 
@@ -28,11 +28,11 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio: add a contact form and finish the mobile version] <a name="about-project"></a>
+# 📖 [Portfolio: desktop version] <a name="about-project"></a>
 
-> The project is the third milestone in building a portfolio website. In this project a contact form is added in the portfolio project.
+> Use media queries in the fourth project of the portfolio website to make sure that the website displays correctly on desktop screens.
 
-**[Portfolio: add a contact form and finish the mobile version]** is...
+**[Portfolio: desktop version]** is...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -57,6 +57,7 @@
 - **[Header section - Introduction]**
 - **[Work portfolio section - Projects description]**
 - **[Contact Form]**
+- **[Desktop Version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
