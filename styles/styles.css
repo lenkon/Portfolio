@@ -179,6 +179,36 @@ body {
     line-height: 60px;
     letter-spacing: 0.37px;
   }
+
+  #about-me-animation {
+    animation-name: banner-left;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes banner-left {
+    from {
+      transform: rotate(20deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+
+  #header-animation {
+    animation-name: banner-right;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes banner-right {
+    from {
+      transform: translateX(500px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
 }
 
 .card-works-wrapper {
@@ -689,6 +719,10 @@ body {
   .card-works-container:hover {
     cursor: pointer;
     outline: 3px solid #58585c;
-    box-shadow: 0 3px 4px 0 rgba(30, 30, 30, 0.2), 0 3px 10px 0 rgba(75, 64, 64, 0.1);
+    box-shadow: 0 3px 4px 0 rgba(30, 30, 30), 0 3px 10px 0 rgba(75, 64, 64);
+  }
+
+  .card-works-container img:hover {
+    transform: scale(1.05);
   }
 }
