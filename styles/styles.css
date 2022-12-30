@@ -317,9 +317,11 @@ body {
 
 .contact-section {
   background-color: #fff;
-  max-height: 779px;
-  justify-content: center;
+  height: auto;
   padding-top: 126px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact-container {
@@ -328,14 +330,16 @@ body {
   background-repeat: no-repeat;
   background-position: top 21px left 110px;
   color: #fff;
-  background-size: 265px 709.17px;
+  background-size: contain;
+  background-position-x: 100%;
+  background-position-y: 0;
   border-top-left-radius: 70px;
 }
 
 .contact-title {
   display: flex;
-  justify-content: space-between;
-  padding: 103px 10px 0 57px;
+  justify-content: center;
+  padding: 103px 0 57px;
   font-family: Poppins, sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -349,16 +353,18 @@ body {
   font-size: 20px;
   margin-bottom: 10px;
   line-height: 28px;
-  padding: 20px 24px 22px;
   color: #ebebff;
+  padding: 0 24px;
 }
 
 .contact-form {
-  /* width: 447px; */
   display: flex;
   flex-direction: column;
   padding: 14px 24px 24px;
-  margin-right: 24px;
+}
+
+.label-visibility {
+  visibility: hidden;
 }
 
 .contact-input {
@@ -368,7 +374,7 @@ body {
   justify-content: center;
   border: none;
   border-radius: 8px;
-  width: 100%;
+  max-width: 447px;
   margin: 10px 0;
   font-size: 17px;
   padding: 10px;
@@ -386,12 +392,11 @@ body {
   font-style: normal;
   fill: solid;
   line-height: 24px;
-  width: 100%;
   font-size: 15px;
 }
 
 .submit-button {
-  align-self: flex-start;
+  align-self: start;
   border-radius: 8px;
   border: none;
   margin: 15px 0 24px;
@@ -529,6 +534,17 @@ body {
     margin: 12px;
   }
 
+  .card-works-container:hover {
+    cursor: pointer;
+    outline: 1px solid #a7aeff;
+    box-shadow: 12px 12px 2px 1px rgb(0 0 255 / 20%);
+  }
+
+  .card-works-container > img:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+  }
+
   .card-sizing {
     display: flex;
     flex-direction: column;
@@ -658,8 +674,8 @@ body {
   }
 
   #form-submit {
-    margin-left: 188px;
     margin-bottom: 72px;
+    align-self: center;
   }
 
   #form-submit:hover {
@@ -670,14 +686,13 @@ body {
 
   .contact-input {
     border-radius: 0;
-    width: 447px;
-    margin-left: 26px;
+    min-width: 447px;
   }
 
   .form-msg {
     border-radius: 0;
-    width: 447px;
-    margin-left: 26px;
+    padding: 10px;
+    min-width: 447px;
   }
 
   .container-base {
