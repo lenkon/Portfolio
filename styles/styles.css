@@ -101,7 +101,6 @@ body {
   align-items: center;
   margin: 0;
   margin-right: 300px;
-  /* padding: 15px 0 0 24px; */
   padding: 15px 0 0 36px;
 }
 
@@ -174,7 +173,6 @@ body {
   line-height: 24px;
   color: #344563;
   margin: 12px 0;
-  /* padding: 0 8px; */
 }
 
 .card-tools-list {
@@ -433,7 +431,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    flex-direction:row;
+    flex-direction: row;
   }
 
   .barlists {
@@ -441,7 +439,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 25px 155px 0 85px;
-        
   }
 
   .menu-desktop {
@@ -453,7 +450,7 @@ body {
   .menu {
     display: none;
   }
-  
+
   .menu-desktop-list {
     width: auto;
     display: flex;
@@ -496,13 +493,13 @@ body {
     letter-spacing: 0.37px;
     padding: 0;
   }
-  
+
   .header-main > h6 {
-    padding: 25px 0 0 0;
+    padding: 25px 0 0;
   }
 
   .header-main .iconlists {
-    padding: 15px 0 0 0;
+    padding: 15px 0 0;
   }
 
   /* Desktop - cards */
@@ -544,7 +541,7 @@ body {
   }
 
   .card-works-container > img {
-    width: 50%;  
+    width: 50%;
   }
 
   .card-works-container:hover {
@@ -574,10 +571,9 @@ body {
     font-weight: 500;
     font-size: 13px;
   }
-  
+
   .card-main-text {
     font-size: 16px;
-    /* padding-left: 0; */
   }
 
   /* Desktop - about myself */
@@ -635,7 +631,6 @@ body {
 
   .language-list {
     display: flex;
-    /* margin-left: 16px; */
   }
 
   .language > h5 {
@@ -646,7 +641,6 @@ body {
   .language {
     flex-direction: column;
     align-items: flex-start;
-    /* margin-bottom: 0; */
     margin: 5px;
     padding: 12px;
   }
