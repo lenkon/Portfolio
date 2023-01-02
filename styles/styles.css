@@ -95,6 +95,14 @@ body {
   text-decoration: none;
 }
 
+.base-line {
+  max-width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin: auto;
+}
+
 .blur-filter {
   filter: blur(7px);
 }
@@ -121,7 +129,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  padding: 20px  8px;
+  padding: 20px 8px;
   color: #344563;
   padding-left: 24px;
 }
