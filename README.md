@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Portfolio: desktop version</b></h3>
+  <h3><b>Portfolio: mobile menu</b></h3>
 
 </div>
 
@@ -28,17 +28,17 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio: desktop version] <a name="about-project"></a>
+# 📖 [Portfolio: mobile menu] <a name="about-project"></a>
 
 > Use media queries in the fourth project of the portfolio website to make sure that the website displays correctly on desktop screens.
 
-**[Portfolio: desktop version]** is...
+**[Portfolio: mobile menu]** is...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
->  Built with html and css with linter configuration setup.
+>  Built with html, css and javascript with linter configuration setup.
 
 <details>
   <summary>Client</summary>
@@ -46,6 +46,7 @@
     <li><a href="https://github.com/lenkon/Portfolio/blob/main/.github/workflows/linters.yml">linter</a></li>
     <li><a href="https://www.w3schools.com/html/">html</a></li>
     <li><a href="https://www.w3schools.com/w3css/defaulT.asp">css</a></li>
+    <li><a href="https://www.w3schools.com/js/default.asp">javascript</a></li>
   </ul>
 </details>
 
@@ -58,6 +59,7 @@
 - **[Work portfolio section - Projects description]**
 - **[Contact Form]**
 - **[Desktop Version]**
+- **[Mobile Menu]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

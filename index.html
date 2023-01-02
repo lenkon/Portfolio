@@ -13,33 +13,53 @@
   </head>
 
   <body>
-    <main>
-      <!-- Navigation -->
-      <header class="navbar-container">
-        <section class="barlists">
-          <a class="logo" href="#">
-            <h3>Lenkon</h3>
-          </a>
-          <nav class="menu">
-            <img src="./images/Union.png" alt="Menu">          
-          </nav>
-          <!-- menu-desktop -->
-          <div class="menu-desktop">
-            <div class="menu-desktop-list">            
-              <nav></nav>
-                <a href="#portfolio">Portfolio</a>
-              </nav>
-              <nav>
-                <a href="#about">About</a>
-              </nav>
-              <nav>
-                <a href="#contact">Contact</a>
-              </nav>              
-            </div>
-          </div>          
-        </section>
-      </header>
+    <!-- Navigation -->
+    <header class="navbar-container">
+      <section class="barlists">
+        <a id="logo" class="logo" href="index.html">
+          <h3>Lenkon</h3>
+        </a>          
+        <nav id="menu" class="menu">
+          <img src="./images/Union.png" alt="Menu">   
+        </nav>            
+        
+        <!-- Mobile Menu -->
+        <div id="menu-show" class="menu-container">            
+          <div class="menu-close-container">
+            <span id="menu-close" class="menu-close">              
+              <nav><img src="./images/Close-Icon.png" alt="close menu image" /></nav>              
+            </span>
+          </div>
+          <div class="menu-list">
+            <ul>
+              <li><nav><a class="menu-item" href="#portfolio">Portfolio</a></nav></li>
+              <li><nav><a class="menu-item" href="#about">About</a></nav></li>
+              <li><nav><a class="menu-item" href="#contact">Contact</a></nav></li>
+            </ul>            
+          </div>
+          <div class="base-line">            
+          </div>
+        </div>
 
+        <!-- menu-desktop -->
+        <div class="menu-desktop">
+          <div class="menu-desktop-list">            
+            <nav>
+              <a href="#portfolio">Portfolio</a>
+            </nav>
+            <nav>
+              <a href="#about">About</a>
+            </nav>
+            <nav>
+              <a href="#contact">Contact</a>
+            </nav>              
+          </div>
+        </div>          
+      </section>
+    </header>
+
+    <!-- Main body -->
+    <main id="main">
       <!-- Header -->
       <section class="header-container"> 
         <div class="header-main">
@@ -296,4 +316,5 @@
       </footer>
     </main>
   </body>
+  <script src="./js/script.js"></script>
 </html>
