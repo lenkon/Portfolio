@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Portfolio: desktop version</b></h3>
+  <h3><b>Portfolio: mobile menu</b></h3>
 
 </div>
 
@@ -17,9 +17,7 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Usage](#usage)  
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -28,17 +26,17 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio: desktop version] <a name="about-project"></a>
+# 📖 [Portfolio: mobile menu] <a name="about-project"></a>
 
-> Use media queries in the fourth project of the portfolio website to make sure that the website displays correctly on desktop screens.
+> For this milestone of the portfolio website, the mobile menu will be implemented using the recently acquired JavaScript knowledge.
 
-**[Portfolio: desktop version]** is...
+**[Portfolio: mobile menu]** is...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
->  Built with html and css with linter configuration setup.
+>  Built with html, css and javascript with linter configuration setup.
 
 <details>
   <summary>Client</summary>
@@ -46,6 +44,7 @@
     <li><a href="https://github.com/lenkon/Portfolio/blob/main/.github/workflows/linters.yml">linter</a></li>
     <li><a href="https://www.w3schools.com/html/">html</a></li>
     <li><a href="https://www.w3schools.com/w3css/defaulT.asp">css</a></li>
+    <li><a href="https://www.w3schools.com/js/default.asp">javascript</a></li>
   </ul>
 </details>
 
@@ -58,6 +57,7 @@
 - **[Work portfolio section - Projects description]**
 - **[Contact Form]**
 - **[Desktop Version]**
+- **[Mobile Menu]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,26 +74,28 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+- Web Browser (e.g. Firefox, Chrome, Edge)
+- NPM (Node Package Manager)
 
 ### Setup
 
 Clone this repository to your desired folder:
 
+``` 
+  $ git clone https://github.com/lenkon/Portfolio.git
+
+  $ cd Portfolio
+```
 ### Install
 
-Install this project with:
+Install all project dependencies by running the command below:
 
+``` 
+  $ npm install
+```
 ### Usage
 
-To run the project, execute the following command:
-
-### Run tests
-
-To run tests, run the following command:
-
-### Deployment
-
-You can deploy this project using:
+Open the index.html file in your Web Browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
