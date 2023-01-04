@@ -39,11 +39,8 @@ const projectDetails = [
     alt: 'tonic project image',
     companyRoles: ['CANOPY', 'Back End Dev', '2015'],
     skills: ['html', 'css', 'javascript'],
-    liveLink: { link: './index.html', text: 'See live' },
-    sourceLink: {
-      link: 'https://github.com/lenkon/Portfolio',
-      text: 'See Source',
-    },
+    liveLink: { link: './index.html' },
+    sourceLink: { link: 'https://github.com/lenkon/Portfolio' },
     buttonText: 'See Project',
     id: 1,
   },
@@ -56,11 +53,8 @@ const projectDetails = [
     alt: 'multi-post stories project image',
     companyRoles: ['FACEBOOK', 'Full Stack Dev', '2015'],
     skills: ['html', 'Ruby on rails', 'css', 'javascript'],
-    liveLink: { link: './index.html', text: 'See live' },
-    sourceLink: {
-      link: 'https://github.com/lenkon/Portfolio',
-      text: 'See Source',
-    },
+    liveLink: { link: './index.html' },
+    sourceLink: { link: 'https://github.com/lenkon/Portfolio' },
     buttonText: 'See Project',
     flip: 1,
     id: 2,
@@ -74,11 +68,8 @@ const projectDetails = [
     alt: 'facebook 360 project image',
     companyRoles: ['FACEBOOK', 'Full Stack Dev', '2015'],
     skills: ['html', 'Ruby on rails', 'css', 'javascript'],
-    liveLink: { link: 'index.html', text: 'See live' },
-    sourceLink: {
-      link: 'https://github.com/lenkon/Portfolio',
-      text: 'See Source',
-    },
+    liveLink: { link: 'index.html' },
+    sourceLink: { link: 'https://github.com/lenkon/Portfolio' },
     buttonText: 'See Project',
     id: 3,
   },
@@ -91,11 +82,8 @@ const projectDetails = [
     alt: 'uber navigation project image',
     companyRoles: ['Uber', 'Lead Developer', '2018'],
     skills: ['html', 'Ruby on rails', 'css', 'javascript'],
-    liveLink: { link: './index.html', text: 'See live' },
-    sourceLink: {
-      link: 'https://github.com/lenkon/Portfolio',
-      text: 'See Source',
-    },
+    liveLink: { link: './index.html' },
+    sourceLink: { link: 'https://github.com/lenkon/Portfolio' },
     buttonText: 'See Project',
     flip: 1,
     id: 4,
@@ -183,13 +171,13 @@ const popupDetails = (item) => {
             <div class="popup-card-separator"></div>
             <div class="popup-card-links">
               <a href="${
-  item.liveLink
+  item.liveLink.link
 }" target="_blank" class="card-button popup-button">
                 <span>See live</span>
                 <img src="./images/live-link-Icon.png" alt="live link icon">
               </a>
               <a href="${
-  item.sourceLink
+  item.sourceLink.link
 }" target="_blank" class="card-button popup-button">
                 <span>See source</span>
                 <img src="./images/github-Vector.png" alt="github link icon">
