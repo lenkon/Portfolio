@@ -195,6 +195,10 @@ const popupDetails = (item) => {
 const createPopup = (button, callback = () => null) => {
   const id = parseInt(button.getAttribute('card-id'), 10);
   const data = projectDetails.filter((item) => item.id === id);
+  // add below
+  logo.classList.add('blur-filter');
+  menu.classList.add('blur-filter');
+  mainBody.classList.add('blur-filter');
   document.getElementById('popup-project-card-section').innerHTML = popupDetails(data[0]);
   return callback();
 };
@@ -204,10 +208,18 @@ const closePopup = () => {
   const popupCardContainer = document.getElementById('popup-card-container');
   const popupCloseButton = document.getElementById('popup-close-button');
 
+  // add below
+  logo.classList.add('blur-filter');
+  menu.classList.add('blur-filter');
+  mainBody.classList.add('blur-filter');
+
   popupCloseButton.addEventListener('click', () => {
     document.getElementById('popup-project-card-section').innerHTML = '';
     document.body.style.margin = '';
     document.body.style.overflow = '';
+    logo.classList.remove('blur-filter');
+    menu.classList.remove('blur-filter');
+    mainBody.classList.remove('blur-filter');
   });
   popupCardContainer.addEventListener('click', () => {
     document.getElementById('popup-project-card-section').innerHTML = '';

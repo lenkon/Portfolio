@@ -104,7 +104,7 @@ body {
 }
 
 .blur-filter {
-  filter: blur(7px);
+  filter: blur(6px);
 }
 
 .show-menu {
@@ -249,8 +249,7 @@ body {
 
 .card-tools-list {
   display: flex;
-
-  /* margin-right: 16px; */
+  align-items: flex-start;
   list-style: none;
   padding-inline-start: 0;
   justify-content: space-between;
@@ -283,7 +282,7 @@ body {
 
 .card-button {
   background: #fff;
-  padding: 12px;
+  padding: 8px;
   border: 1px solid #6070ff;
   border-radius: 8px;
   display: flex;
@@ -341,7 +340,9 @@ body {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding: 16px;
-  width: 90%;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 100px;
 }
 
 .popup-card-description {
@@ -358,8 +359,6 @@ body {
 .popup-tools-sizing {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  padding-left: 20px;
 }
 
 .popup-close-button {
@@ -396,17 +395,21 @@ body {
 
 .popup-card-links {
   display: flex;
-  align-items: center;
+  flex-wrap: nowrap;
   gap: 15px;
+  margin: auto;
+  padding-bottom: 10px;
 }
 
 .popup-button {
-  min-width: 102px;
-  min-height: 40px;
+  min-width: 110px;
+  min-height: 50px;
+  min-height: 15px;
   text-decoration: none;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: normal;
+  justify-content: center;
 }
 
 .popup-button:first-child {
@@ -421,9 +424,9 @@ body {
 }
 
 .card-button > img {
-  width: 24px;
-  height: 24px;
-  padding-left: 5px;
+  width: 18px;
+  height: 20px;
+  padding-left: 12px;
 }
 
 .about-myself {
@@ -752,7 +755,6 @@ body {
   }
 
   .popup-details-container > img {
-    /* margin: 36px 40px 42px; */
     width: 100%;
   }
 
@@ -763,11 +765,15 @@ body {
   }
 
   .popup-card-description {
-    width: 80%;
+    width: auto;
   }
 
   .popup-tools-sizing {
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 265px;
+    padding-right: 10px;
   }
 
   .card-works-container > img:hover {
@@ -783,18 +789,32 @@ body {
   }
 
   .card-title-text {
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 40px;
+    line-height: 52px;
     margin: 0;
+  }
+
+  .card-list {
+    padding: 20px 0;
   }
 
   .card-canopy {
     font-weight: 500;
-    font-size: 13px;
+    font-size: 18px;
+    line-height: 24px;
   }
 
   .card-main-text {
     font-size: 16px;
+  }
+
+  .card-tools {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .popup-card-links {
+    margin: 0;
   }
 
   /* Popup window section */
