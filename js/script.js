@@ -29,30 +29,38 @@ menuList.forEach((item) => {
 
 // Project Details
 const cardWorksWrapper = document.getElementById('card-works-wrapper');
-const popupCardDescription = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea';
+const popupCardDescription = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea";
 const projectDetails = [
   {
     title: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups are required.',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups are required.',
     image: './images/large/Snapshoot Portfolio -Tonic.png',
     alt: 'tonic project image',
     companyRoles: ['CANOPY', 'Back End Dev', '2015'],
     skills: ['html', 'css', 'javascript'],
     liveLink: { link: './index.html', text: 'See live' },
-    sourceLink: { link: 'https://github.com/lenkon/Portfolio', text: 'See Source' },
+    sourceLink: {
+      link: 'https://github.com/lenkon/Portfolio',
+      text: 'See Source',
+    },
     buttonText: 'See Project',
     id: 1,
   },
 
   {
     title: 'Multi-Post Stories',
-    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    description:
+      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     image: './images/large/Snapshoot Portfolio - Multi-Post Stories.png',
     alt: 'multi-post stories project image',
     companyRoles: ['FACEBOOK', 'Full Stack Dev', '2015'],
     skills: ['html', 'Ruby on rails', 'css', 'javascript'],
     liveLink: { link: './index.html', text: 'See live' },
-    sourceLink: { link: 'https://github.com/lenkon/Portfolio', text: 'See Source' },
+    sourceLink: {
+      link: 'https://github.com/lenkon/Portfolio',
+      text: 'See Source',
+    },
     buttonText: 'See Project',
     flip: 1,
     id: 2,
@@ -60,26 +68,34 @@ const projectDetails = [
 
   {
     title: 'Facebook 360',
-    description: 'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    description:
+      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     image: './images/large/Snapshoot Portfolio - Facebook 360.png',
     alt: 'facebook 360 project image',
     companyRoles: ['FACEBOOK', 'Full Stack Dev', '2015'],
     skills: ['html', 'Ruby on rails', 'css', 'javascript'],
-    liveLink: { link: './index.html', text: 'See live' },
-    sourceLink: { link: 'https://github.com/lenkon/Portfolio', text: 'See Source' },
+    liveLink: { link: 'index.html', text: 'See live' },
+    sourceLink: {
+      link: 'https://github.com/lenkon/Portfolio',
+      text: 'See Source',
+    },
     buttonText: 'See Project',
     id: 3,
   },
 
   {
     title: 'Uber Navigation',
-    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    description:
+      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     image: './images/large/Snapshoot Portfolio - Uber Navigation.png',
     alt: 'uber navigation project image',
     companyRoles: ['Uber', 'Lead Developer', '2018'],
     skills: ['html', 'Ruby on rails', 'css', 'javascript'],
     liveLink: { link: './index.html', text: 'See live' },
-    sourceLink: { link: 'https://github.com/lenkon/Portfolio', text: 'See Source' },
+    sourceLink: {
+      link: 'https://github.com/lenkon/Portfolio',
+      text: 'See Source',
+    },
     buttonText: 'See Project',
     flip: 1,
     id: 4,
@@ -100,7 +116,9 @@ const createProjectDetails = (item) => {
     return `<span class="card-canopy">${value}</span>`;
   });
 
-  const skillsList = item.skills.map((count) => `<li class="card-tools">${count}</li>`);
+  const skillsList = item.skills.map(
+    (count) => `<li class="card-tools">${count}</li>`,
+  );
 
   const innerHtml = `
     <img src="${item.image}" alt="${item.alt}">
@@ -114,7 +132,9 @@ const createProjectDetails = (item) => {
         ${skillsList.join('')}
       </ul>
       <div class="card-button-box">
-        <button card-id=${item.id} class="card-button popup-card-button">See Project</button>
+        <button card-id=${
+  item.id
+} class="card-button popup-card-button">See Project</button>
       </div>
     </div>
   `;
@@ -132,7 +152,9 @@ const popupDetails = (item) => {
     return `<span class="card-canopy">${value}</span>`;
   });
 
-  const skillsList = item.skills.map((count) => `<li class="card-tools">${count}</li>`);
+  const skillsList = item.skills.map(
+    (count) => `<li class="card-tools">${count}</li>`,
+  );
 
   const innerHtml = `<div id="popup-card-container"></div>
   <section id="popup-card-section">
@@ -160,14 +182,19 @@ const popupDetails = (item) => {
             </ul>
             <div class="popup-card-separator"></div>
             <div class="popup-card-links">
-              <a href=${item.liveLink} target="_blank" class="card-button popup-button">
+              <a href="${
+  item.liveLink
+}" target="_blank" class="card-button popup-button">
                 <span>See live</span>
                 <img src="./images/live-link-Icon.png" alt="live link icon">
               </a>
-              <a href=${item.sourceLink} target="_blank" class="card-button popup-button">
+              <a href="${
+  item.sourceLink
+}" target="_blank" class="card-button popup-button">
                 <span>See source</span>
                 <img src="./images/github-Vector.png" alt="github link icon">
               </a>
+
             </div>
           </div>
         </div>
