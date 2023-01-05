@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Portfolio: mobile menu</b></h3>
+  <h3><b>Portfolio: details popup window</b></h3>
 
 </div>
 
@@ -26,11 +26,11 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio: mobile menu] <a name="about-project"></a>
+# 📖 [Portfolio: details popup window] <a name="about-project"></a>
 
-> For this milestone of the portfolio website, the mobile menu will be implemented using the recently acquired JavaScript knowledge.
+> For this milestone of the portfolio website, a popup window will be implemented that includes the project details in both desktop and mobile. In order to do this, information about the  projects will be stored in a JavaScript object.
 
-**[Portfolio: mobile menu]** is...
+**[Portfolio: details popup window]** is...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -58,6 +58,7 @@
 - **[Contact Form]**
 - **[Desktop Version]**
 - **[Mobile Menu]**
+- **[Work details popup window]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
