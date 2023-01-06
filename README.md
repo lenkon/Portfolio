@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Portfolio: details popup window</b></h3>
+  <h3><b>Portfolio: validate contact form</b></h3>
 
 </div>
 
@@ -26,11 +26,11 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio: details popup window] <a name="about-project"></a>
+# 📖 [Portfolio: validate contact form] <a name="about-project"></a>
 
-> For this milestone of the portfolio website, a popup window will be implemented that includes the project details in both desktop and mobile. In order to do this, information about the  projects will be stored in a JavaScript object.
+> For this milestone of the portfolio website, a client-side validation of the data in the contact form will be implemented before submission.
 
-**[Portfolio: details popup window]** is...
+**[Portfolio: validate contact form]** is...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -59,6 +59,7 @@
 - **[Desktop Version]**
 - **[Mobile Menu]**
 - **[Work details popup window]**
+- **[Contact form validation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

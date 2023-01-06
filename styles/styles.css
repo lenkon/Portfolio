@@ -377,7 +377,7 @@ body {
   flex-direction: column;
 }
 
-.popup-card-details {
+. {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -557,10 +557,9 @@ body {
   padding: 0 24px;
 }
 
-.contact-form {
+.form {
   display: flex;
   flex-direction: column;
-  padding: 14px 24px 24px;
 }
 
 .label-visibility {
@@ -593,6 +592,17 @@ body {
   fill: solid;
   line-height: 24px;
   font-size: 15px;
+}
+
+.email-error-msg {
+  display: none;
+  font-family: Poppins, sans-serif;
+  color: rgb(118, 5, 11);
+  background-color: rgb(193, 199, 242);
+  text-align: center;
+  padding: 3px 10px;
+  margin: 12px 95px 0;
+  border-radius: 2px;
 }
 
 .submit-button {
@@ -904,7 +914,12 @@ body {
   }
 
   .contact-title {
-    padding-left: 0;
+    padding: 142px 0 12px;
+  }
+
+  .contact-details {
+    padding-top: 0;
+    margin-bottom: 0;
   }
 
   .contact-container {
@@ -919,16 +934,11 @@ body {
   }
 
   .contact-container > p {
-    padding: 16px 0 0;
     max-width: 520px;
   }
 
-  .contact-form {
-    align-items: center;
-  }
-
   #form-submit {
-    margin-bottom: 72px;
+    margin-bottom: 130px;
     align-self: center;
   }
 
@@ -941,12 +951,14 @@ body {
   .contact-input {
     border-radius: 0;
     min-width: 447px;
+    margin: 0;
   }
 
   .form-msg {
     border-radius: 0;
     padding: 10px;
     min-width: 447px;
+    margin: 0;
   }
 
   .container-base {

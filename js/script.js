@@ -5,6 +5,7 @@ const mainBody = document.getElementById('main');
 const menuClose = document.getElementById('menu-close');
 const menuList = document.querySelectorAll('.menu-item');
 
+// Mobile menu
 const openMenu = () => {
   menuShow.classList.add('show-menu');
   logo.classList.add('blur-filter');
@@ -90,6 +91,7 @@ const projectDetails = [
   },
 ];
 
+// Work details
 const createProjectDetails = (item) => {
   const card = document.createElement('div');
   if (item.flip === 1) {
@@ -192,6 +194,7 @@ const popupDetails = (item) => {
   return innerHtml;
 };
 
+// Work details popup
 const createPopup = (button, callback = () => null) => {
   const id = parseInt(button.getAttribute('card-id'), 10);
   const data = projectDetails.filter((item) => item.id === id);
@@ -208,7 +211,6 @@ const closePopup = () => {
   const popupCardContainer = document.getElementById('popup-card-container');
   const popupCloseButton = document.getElementById('popup-close-button');
 
-  // add below
   logo.classList.add('blur-filter');
   menu.classList.add('blur-filter');
   mainBody.classList.add('blur-filter');
@@ -239,4 +241,29 @@ cardButton.forEach((button) => {
     document.body.style.overflow = 'hidden';
     createPopup(button, closePopup);
   });
+});
+
+// Email validation
+const isUpperCaseEmail = (email) => {
+  if (/[A-Z]/.test(email)) {
+    return true;
+  }
+  return false;
+};
+
+const form = document.getElementById('form');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const email = event.target.email.value;
+  const errorMsg = document.querySelector('.email-error-msg');
+  const validEmail = !isUpperCaseEmail(email);
+
+  if (validEmail) {
+    errorMsg.style.display = 'none';
+    form.submit();
+  } else {
+    errorMsg.style.display = 'block';
+    errorMsg.innerHTML = 'Please write email in small letters';
+  }
 });
