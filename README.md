@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Portfolio: validate contact form</b></h3>
+  <h3><b>Portfolio: preserve data in the browser</b></h3>
 
 </div>
 
@@ -26,11 +26,11 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio: validate contact form] <a name="about-project"></a>
+# 📖 [Portfolio: preserve data in the browser] <a name="about-project"></a>
 
-> For this milestone of the portfolio website, a client-side validation of the data in the contact form will be implemented before submission.
+> For this final milestone of the portfolio website, the form data will be saved in the local storage of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
 
-**[Portfolio: validate contact form]** is...
+**[Portfolio: preserve data in the browser]** is...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -60,6 +60,7 @@
 - **[Mobile Menu]**
 - **[Work details popup window]**
 - **[Contact form validation]**
+- **[Preserve data in the browser]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
