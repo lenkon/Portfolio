@@ -267,3 +267,42 @@ form.addEventListener('submit', (event) => {
     errorMsg.innerHTML = 'Please write email in small letters';
   }
 });
+
+// Preserve form data
+const formInput = document.getElementById('form');
+
+const store = (key, value) => {
+  localStorage.setItem(key, value);
+};
+
+const saveForm = (event) => {
+  const data = {};
+  event.preventDefault();
+  if (formInput.elements.name.value) {
+    data.name = formInput.elements.name.value;
+  }
+  if (formInput.elements.email.value) {
+    data.email = formInput.elements.email.value;
+  }
+  if (formInput.elements.message.value) {
+    data.message = formInput.elements.message.value;
+  }
+  store('data', JSON.stringify(data));
+  window.localStorage.setItem('formdata', data);
+};
+formInput.elements.name.addEventListener('blur', saveForm);
+formInput.elements.email.addEventListener('blur', saveForm);
+formInput.elements.message.addEventListener('blur', saveForm);
+
+const showSavedData = () => {
+  if (localStorage.getItem('data')) {
+    const userData = JSON.parse(localStorage.getItem('data'));
+    formInput.elements.name.value = userData.name;
+    formInput.elements.email.value = userData.email;
+    formInput.elements.message.value = userData.message;
+  }
+};
+
+showSavedData();
+
+formInput.addEventListener('submit', saveForm);
