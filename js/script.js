@@ -297,8 +297,8 @@ formInput.elements.message.addEventListener('blur', saveForm);
 const showSavedData = () => {
   if (localStorage.getItem('data')) {
     const userData = JSON.parse(localStorage.getItem('data'));
-    formInput.elements.name.value = userData.name;
-    formInput.elements.email.value = userData.email;
+    // formInput.elements.name.value = userData.name;
+    // formInput.elements.email.value = userData.email;
     formInput.elements.message.value = userData.message;
   }
 };
